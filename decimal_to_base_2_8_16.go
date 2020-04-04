@@ -6,6 +6,9 @@ func main() {
 	fmt.Println(decimalToBase(10, 2))
 	fmt.Println(decimalToBase(10, 8))
 	fmt.Println(decimalToBase(10, 16))
+	fmt.Println(decimalToBase(-10, 2))
+	fmt.Println(decimalToBase(-10, 8))
+	fmt.Println(decimalToBase(-1010, 16))
 }
 
 func decimalToBase(num, base int) string {
